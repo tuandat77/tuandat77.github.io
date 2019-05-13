@@ -1,223 +1,323 @@
-*{margin:0;padding:0; }
-
-.top1 .banthan {
-    padding-top: 23%;
+*{margin: 0; padding: 0;}
+body{
+   font-family: 'Montserrat', sans-serif;
 }
 
-.menuphai h2 {
-    padding-left: 10px;
-}
-
-.menudoc li {list-style: none;}
-
-.menuphai.ra {
-    right: 0px;
-}
-
-.menudoc a {
-    color: white;
-    display: block;
-    padding: 10px 13px;
-    font-size: 20px;
-    border-bottom: 1px solid #ababab87;
-}
-
-.menuphai {
-    top: 0px;
-    right: 0px;
-    position: fixed;
-    height: 900px;
-    background: black;
-    width: 200px;
-    color: white;
-    z-index: 3;
-    right: -300px;
-}
-
-.nutmenu a.fa.fa-bars {
-    color: wheat;
-    font-size: 25px;
-}
-
-.nutmenu {
-    position: fixed;
-    top: 5px;
-    right: 5px;
-    padding: 15px 15px;
-    background: #00000057;
-}
-
-.top6 a.nut1.btn.btn-default {border-radius: 0;font-size: 23px;margin-right: 15px;}
-
-.top6 a.nut1.btn.btn-default:hover {
-    background: #a5a5a5b3;
-}
-
-.top6 h2 {
-    font-size: 25px;
-    padding-bottom: 15px;
-}
-
-.top6.xanh {
-    background: #337ab7;
-    color: white;
-    padding: 50px;
-}
-
-a.btn.bnt-default.viewmoreitem {border-radius: 0;background: #00000066;color: white;margin-bottom: 24px;}
-
-.top5 img.img-responsive {
-    margin-bottom: 25px;
-}
-
-.top5 img.img-responsive:hover {
-    opacity: 0.9;
-}
-
-.top4 h2 {
-    font-size: 46px;
-    font-weight: 700;
-}
-
-.top4 {
-    background: url(images/callout.jpg);
-    height: 400px;
-    width: 100%;
-    color: white;
-    background-size: cover;
-    padding-top: 227px;
-}
-
-.top3 a.btn.btn-default.nuttrang {
-    /* border: none; */
-    border-radius: 0;
-}
-
-.iconto .fa {
-    width: 80px;
-    background-color: white;
-    color: #337ab7;
-    font-size: 45px;
-    border-radius: 50%;
-    height: 80px;
-    line-height: 80px;
-}
-
-hr.vienduoi {
-    width: 11%;
-    margin: auto;
-    padding-bottom: 34px;
-}
-
-.col-md-12.text-center h3 {
-    font-size: 30px;
-}
-
-
-.top3 {
-    background-color: #337ab7;
-    color: white;
-    padding-bottom: 40px;
-}
-
-.top2 p {
-    font-size: 20px;
-}
-
-.top2 h2 {
-    font-size: 30px;
-}
-
-.top2 {
-    padding: 20px 0;
-}
-
-.top1 a.btn.btn-default {
-    border: none;
-    border-radius: 0px;
-    background-color: #b9b3b3;
-    font-size: 18px;
-    color: white;
-}
-
-a.btn.btn-default:hover {
-    background: #50504ffc;
-}
-
-.top6 a.nut2.btn.btn-default {
-    border-radius: 0;
-    font-size: 23px;
-    margin-right: 15px;
-    background: #000000cf;
-    color: white;
-}
-
-.top6 a.nut2.btn.btn-default:hover {
-    background: #0000006e;
-}
-
-
-body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-.footer {
-    padding: 20px;
-    display: block;
-    font-size: 10px;
-}
-
-.top1 p {
-    font-size: 20px;
+hr {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
     color: #74b9ff;
+    border: 2px solid;
+}
+/* Menu */
+#introduce {
+    background-image: url(images/code.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
 }
 
-p {}
+#navigation #TopNav ul.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+#navigation #TopNav ul.navbar-nav li.nav-item {
+  list-style: none;
+}
+#navigation #TopNav ul.navbar-nav li.nav-item a.nav-link {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.4s;
+  padding: 5px 20px;
+}
+#navigation #TopNav ul.navbar-nav li.nav-item a.nav-link:hover {
+  background: #74b9ff;
+  color: #fafafa !important;
+}
 
-.top1 h1 {
+#navigation.bg {
+  background: #fafafa;
+  border-bottom: 1px solid #555555;
+  box-shadow: 0px 1px 20px 0px #00000042;
+  margin-bottom: 0 !important;
+}
+
+#navigation.bg ul li.nav-item a.nav-link {
+  color: #555555 !important;
+  padding: 10px 20px !important;
+}
+
+/* End menu */
+
+/* Introduc */
+#introduce .intro p.job {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 45px;
+    margin-bottom: 0 !important;
+    color: #fafafa;
+}
+
+#introduce .intro p.name {
+    font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     font-weight: 700;
     color: #74b9ff;
 }
 
-.top1 {
-    background: url(images/anhnen1.jpg);
-    height: 900px;
+#introduce .intro p.hello {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+#introduce .intro {
+    padding-top: 310px;
+}
+
+/* End introduc */
+
+
+/* About */
+
+#about .information .table tr td {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+#about .information p.more-infomation {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+
+#about .information span {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+h1.header_title {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+section#about {
+    background-color: #eeeeee;
+    padding-bottom: 35px;
+}
+
+/* end about */
+
+/* Skill of me */
+#skill p.skill-title_more {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 33px;
+}
+
+#skill ._1line {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#skill ._1line p.subjects {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#skill ._1line .line {
+  height: 5px;
+  border-radius: 2px;
+}
+
+#skill ._1line .line .line-details {
+  background-color: #74b9ff;
+}
+
+#skill ._1line .value {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  color: #555555;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#skill ._1line:hover {
+  cursor: pointer;
+}
+
+#skill ._1line .skill-information {
+  background: #74b9ff;
+  padding: 10px 20px;
+  border-radius: 0px;
+}
+
+#skill ._1line .skill-information p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #fafafa;
+}
+
+
+ #skill {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #dadada;
+  }
+
+  #skill h1.header_title {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 35px;
+  }
+
+  #skill h2.skill-title {
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  #skill p.skill-title_more {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 25px 0;
+  }
+
+  #skill ._1line p.subjects {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  #skill ._1line .value {
+    font-size: 16px;
+  }
+
+/* End Skill of me */
+
+/* Resume */
+
+#resume p.skill-title_more {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 33px;
+}
+
+#resume ._1block {
+  background: #eeeeee;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.4s;
+  margin-bottom: 30px;
+}
+
+#resume ._1block:hover {
+  box-shadow: 0px 4px 1px 0 #00000038;
+}
+
+#resume ._1block:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 0;
+  height: 0;
+  border-bottom: 35px solid transparent;
+  border-left: 35px solid #74b9ff;
+}
+
+#resume ._1block p.time {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+#resume ._1block p.title_job {
+  font-size: 20px;
+  font-weight: 700;
+  color: #74b9ff;
+}
+
+#resume ._1block p.detail_job p.local {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* End Resume */
+
+/* Mobile */
+@media screen and (max-width: 576px){
+
+  body {
+    
+  }
+
+  #navigation button.collapse-button {
+    border: 1px solid #3e3e3e;
+    border-radius: 0px;
+    margin-top: 5px;
+  }
+
+  #navigation button.collapse-button span.collapse-button_bars {
+    font-size: 20px;
+    color: #101010;
+  }
+
+  #navigation #TopNav {
     width: 100%;
-    display: block;
-    background-size: cover;
-}
+    margin-top: 5px;
+  }
+
+  #navigation #TopNav ul.navbar-nav li.nav-item a.nav-link {
+    text-align: center;
+    color: #74b9ff !important;
+    /* padding: 10px; */
+  }
+
+  #navigation #TopNav ul.navbar-nav li.nav-item a.nav-link.active {
+    color: #fafafa !important;
+  }
+  #navigation #TopNav {
+    background: #fafafa;
+    width: 100%;
+    border: 1px solid #555555;
+    border-radius: 0px;
+    margin-top: 5px;
+  }
+
+  #introduce {
+    padding-bottom: 15vh;
+    height: 300px;
+  }
+  #introduce .intro {
+    padding-top: 100px;
+  }
+  #introduce .intro p.name {
+    font-size: 36px;
+    padding-bottom: 9px;
+  }
+  #introduce .intro p.job {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
  
-/* Tạo animation  */
-.top1 p {
-    position: relative;
-  -webkit-animation-name: fadeInDown; 
-  -webkit-animation-duration: 5s; 
-  animation-name: fadeInDown;
-  animation-duration: 5s;
- }
- @-webkit-keyframes fadeInDown { /* hiện thị cho IOS */
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-10%, 0, 0);
-    transform: translate3d(-10%, 0, 0);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+
 }
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-10%, 0, 0);
-    transform: translate3d(-10%, 0, 0);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-/* kết thúc làm animation */
+
+
+/* End mobile */
