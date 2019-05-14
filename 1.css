@@ -10,6 +10,7 @@ hr {
     color: #74b9ff;
     border: 2px solid;
 }
+
 /* Menu */
 #introduce {
     background-image: url(images/code.jpg);
@@ -65,14 +66,12 @@ hr {
 }
 
 #introduce .intro p.name {
-    font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     font-weight: 700;
     color: #74b9ff;
 }
 
 #introduce .intro p.hello {
-    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 500;
     color: #fafafa;
@@ -171,7 +170,6 @@ section#about {
   color: #fafafa;
 }
 
-
  #skill {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -208,11 +206,9 @@ section#about {
 /* End Skill of me */
 
 /* Resume */
-
-#resume p.skill-title_more {
-  font-size: 15px;
-  font-weight: 400;
-  padding-bottom: 33px;
+#resume {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #resume ._1block {
@@ -226,18 +222,6 @@ section#about {
 
 #resume ._1block:hover {
   box-shadow: 0px 4px 1px 0 #00000038;
-}
-
-#resume ._1block:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  width: 0;
-  height: 0;
-  border-bottom: 35px solid transparent;
-  border-left: 35px solid #74b9ff;
 }
 
 #resume ._1block p.time {
@@ -258,6 +242,143 @@ section#about {
 }
 
 /* End Resume */
+
+/* Project */
+#project {
+  background: #eeeeee;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* End project */
+
+/* Contact */
+#contact-me{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#contact-me .__1block-info {
+  margin-bottom: 75px;
+}
+
+#contact-me .__1block-info img {
+  float: left;
+  padding-right: 20px;
+}
+
+#contact-me .__1block-info p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+  margin-left: 90px;
+  vertical-align: middle;
+}
+#contact-me .form-contact .form-row {
+  display: flex;
+  flex: wrap;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#contact-me .form-contact p.form-row.name {
+  width: 47%;
+  float: left;
+  margin-right: 6%;
+}
+
+#contact-me .form-contact p.form-row.email {
+  width: 47%;
+}
+
+#contact-me .form-contact input[type=text] {
+  width: 100%;
+  height: 50px;
+  padding: 17px 20px;
+  border: 1px solid #555555;
+  border-radius: 0px;
+  margin-bottom: 15px;
+}
+
+#contact-me .form-contact input[type=text]:focus {
+  border: 1px solid #74b9ff;
+}
+
+#contact-me .form-contact input[type='text'] {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#contact-me .form-contact textarea#text-massage {
+  width: 100%;
+  padding: 17px 20px;
+  border: 1px solid #555555;
+}
+
+#contact-me .form-contact textarea#text-massage:focus {
+  border: 1px solid #74b9ff;
+}
+
+#contact-me .form-contact textarea::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#contact-me .form-contact p#noti, #contact-me .form-contact span#noti-name, #contact-me .form-contact span#noti-email {
+  color: #e74c3c;
+  font-size: 14px;
+  font-weight: 500;
+}
+#contact-me button.send {
+  color: #fafafa;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* End contact */
+
+/* Footer */
+footer {
+  background: #eeeeee;
+  padding: 20px 0;
+}
+/* line 471, style.scss */
+footer p {
+  padding-top: 5px;
+  margin-bottom: 0 !important;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* line 477, style.scss */
+footer .social {
+  float: right;
+  margin-left: auto;
+  padding-top: 5px;
+}
+/* line 481, style.scss */
+footer .social ul {
+  list-style: none;
+}
+/* line 483, style.scss */
+footer .social ul li {
+  float: left;
+  padding-right: 40px;
+}
+/* line 486, style.scss */
+footer .social ul li a {
+  text-decoration: none;
+  color: #555555;
+  transition: 0.4s;
+  font-size: 18px;
+}
+/* line 491, style.scss */
+footer .social ul li a:hover {
+  color: #74b9ff;
+}
+/* End footer */
 
 /* Mobile */
 @media screen and (max-width: 576px){
