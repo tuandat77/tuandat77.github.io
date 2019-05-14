@@ -343,38 +343,37 @@ footer {
   background: #eeeeee;
   padding: 20px 0;
 }
-/* line 471, style.scss */
+
 footer p {
   padding-top: 5px;
   margin-bottom: 0 !important;
   float: left;
-  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
-/* line 477, style.scss */
+
 footer .social {
   float: right;
   margin-left: auto;
   padding-top: 5px;
 }
-/* line 481, style.scss */
+
 footer .social ul {
   list-style: none;
 }
-/* line 483, style.scss */
+
 footer .social ul li {
   float: left;
   padding-right: 40px;
 }
-/* line 486, style.scss */
+
 footer .social ul li a {
   text-decoration: none;
   color: #555555;
   transition: 0.4s;
   font-size: 18px;
 }
-/* line 491, style.scss */
+
 footer .social ul li a:hover {
   color: #74b9ff;
 }
@@ -406,7 +405,6 @@ footer .social ul li a:hover {
   #navigation #TopNav ul.navbar-nav li.nav-item a.nav-link {
     text-align: center;
     color: #74b9ff !important;
-    /* padding: 10px; */
   }
 
   #navigation #TopNav ul.navbar-nav li.nav-item a.nav-link.active {
@@ -439,6 +437,4 @@ footer .social ul li a:hover {
  
 
 }
-
-
 /* End mobile */

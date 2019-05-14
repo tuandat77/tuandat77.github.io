@@ -20,6 +20,11 @@
     })
 })
 
+/*WOW.js*/
+ new WOW().init();
+
+
+
  /*Jquery*/
 
 $(document).ready(function () {
